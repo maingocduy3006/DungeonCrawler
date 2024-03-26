@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1200</width>
+      <height>700</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QWidget" name="widget" native="true">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>90</y>
+       <width>800</width>
+       <height>500</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <widget class="QWidget" name="gridLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1202</width>
+        <height>702</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout"/>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="widget_2" native="true">
+     <property name="geometry">
+      <rect>
+       <x>890</x>
+       <y>280</y>
+       <width>291</width>
+       <height>231</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <widget class="QWidget" name="gridLayoutWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>20</y>
+        <width>251</width>
+        <height>191</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2"/>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>-10</y>
+       <width>1200</width>
+       <height>700</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 0, 0,10);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../textures/bloody_frame.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QWidget" name="widget_3" native="true">
+     <property name="geometry">
+      <rect>
+       <x>880</x>
+       <y>110</y>
+       <width>300</width>
+       <height>151</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <widget class="QWidget" name="gridLayoutWidget_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>301</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="0" column="1">
+        <widget class="QProgressBar" name="progressBar">
+         <property name="value">
+          <number>24</number>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="HPLabel">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="text">
+          <string>HP</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="StaminaLabel">
+         <property name="text">
+          <string>Stamina</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="StrengthLabel">
+         <property name="text">
+          <string>Strength</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLabel" name="StaWertLabel">
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLabel" name="StreWertLabel">
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QPushButton" name="SaveButton">
+     <property name="geometry">
+      <rect>
+       <x>930</x>
+       <y>530</y>
+       <width>181</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>SAVE</string>
+     </property>
+    </widget>
+    <zorder>label</zorder>
+    <zorder>widget</zorder>
+    <zorder>widget_2</zorder>
+    <zorder>widget_3</zorder>
+    <zorder>SaveButton</zorder>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1200</width>
+      <height>700</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>label_2</zorder>
+   <zorder>groupBox</zorder>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
